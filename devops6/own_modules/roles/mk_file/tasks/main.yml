@@ -1,0 +1,12 @@
+---
+    - name: Run my_own_module
+      become: true
+      my_own_module:
+         name: 'hello'
+         new: true
+         path: 'home'
+         content: 'Hello World!'
+      register: testout
+    - name: dump test output
+      debug:
+         msg: '{{ testout }}'
