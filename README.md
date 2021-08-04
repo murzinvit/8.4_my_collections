@@ -9,6 +9,6 @@
 Далее, либо добавить путь к роли в `ansible.cfg`, либо скопировть папку с roles в корень папки с playbook, чтобы Ansible смог найти роль</br>
 
 
-Модуль:  [код модуля](https://github.com/murzinvit/8.4_my_collections/blob/main/devops6/own_modules/roles/mk_file/library/my_own_module.py) </br>
+Модуль:  [код модуля](https://github.com/murzinvit/8.4_my_collections/blob/main/ansible_collections/devops6/own_modules/roles/mk_file/library/my_own_module.py) </br>
    
-![screen]() </br>
+![screen](https://github.com/murzinvit/screen/blob/main/VirtualBox_ubuntu_64_04_08_2021_12_20_04.png) </br>
