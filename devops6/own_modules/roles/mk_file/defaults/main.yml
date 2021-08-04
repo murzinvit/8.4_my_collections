@@ -1,2 +1,5 @@
 ---
-# defaults file for mk_file
+var_name: 'my_own_module'
+var_new: true
+var_path: 'home'
+var_content: 'Hi,there!'

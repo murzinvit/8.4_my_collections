@@ -1,11 +1,10 @@
 ---
     - name: Run my_own_module
-      become: true
       my_own_module:
-         name: 'hello'
-         new: true
-         path: 'home'
-         content: 'Hello World!'
+         name: {{ var_name }}
+         new: {{ var_new }}
+         path: {{ var_path }}
+         content: {{ var_content }}
       register: testout
     - name: dump test output
       debug:
