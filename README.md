@@ -8,6 +8,7 @@
 После выполнения роль по умолчанию создаёт файл `My_File.txt` в папке /home, с текстом Hi,there! </br>
 Установка collection в папке с playbook: `ansible-galaxy collection install devops6-own_modules-1.0.0.tar.gz -p .` </br>
 Далее, либо добавить путь к роли в `ansible.cfg`, либо скопировть папку с roles в корень папки с playbook, чтобы Ansible смог найти роль</br>
+Для запуска локального теста, в папке TEST выполнить: python -m my_own_module args.json
 
 
 Модуль:  [код модуля](https://github.com/murzinvit/8.4_my_collections/blob/main/ansible_collections/devops6/own_modules/roles/mk_file/library/my_own_module.py) </br>
