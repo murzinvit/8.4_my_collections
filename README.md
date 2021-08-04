@@ -1,5 +1,6 @@
 # 8.4_my_collections
 ====================================</br>
+Для работы playbook использован docker контейнер ubuntu:latest, с установленным python
 В шаблон модуля добавил функцию - `def mk_file()`, которая берёт значения из `dict module_args` </br>
 `dict module_args и module = AnsibleModule`, вынес из функции `def run_module()` для общего доступа </br>
 Значения параметров модуля по умолчанию заданы в роли в папке `defaults/main.yml - name, new, path, content` </br>
