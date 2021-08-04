@@ -5,12 +5,10 @@
 Значения параметров модуля по умолчанию заданы в роли в папке `defaults/main.yml - name, new, path, content` </br>
 Сам модуль поместил в папку `library` в папке роли `mk_file` </br>
 После выполнения роль по умолчанию создаёт файл `My_File.txt` в папке /home, с текстом Hi,there! </br>
-Установка `collection: ansible-galaxy collection install mk_file_collection.tar.gz` </br>
-Далее, либо добавить путь к роли в `ansible.cfg`, либо скопировть папку с ролью в папку с playbook </br>
+Установка collection в папке с playbook: `ansible-galaxy collection install devops6-own_modules-1.0.0.tar.gz -p .` </br>
+Далее, либо добавить путь к роли в `ansible.cfg`, либо скопировть папку с roles в корень папки с playbook, чтобы Ansible смог найти роль</br>
 
 
 Модуль:  [код модуля](https://github.com/murzinvit/8.4_my_collections/blob/main/devops6/own_modules/roles/mk_file/library/my_own_module.py) </br>
-    
-Архив collection:  [archive]() </br>
    
 ![screen]() </br>
